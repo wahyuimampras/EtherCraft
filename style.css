@@ -266,7 +266,7 @@ section {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   margin-top: 40px;
 }
@@ -894,7 +894,9 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  
+  .features-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .contact-info{
     grid-template-columns: repeat(1, 1fr);
     padding: 0 30px;
