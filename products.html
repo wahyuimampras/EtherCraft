@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/Logo Bundar.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Ether Craft | Premium Mechanical Keyboards & Accessories</title>
+    <meta name="description" content="Browse our curated collection of premium mechanical keyboards, artisan keycaps, switches, and accessories in Jakarta, Indonesia." />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <a class="logo-container" href="/" style="text-decoration: none;">
+            <img class="img-logo" src="./public/Logo Kotak EC.png" alt="logo-ec"><span class="logo-text">ETHER CRAFT</span>
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/products.html" class="active">Products</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero-title">Our Products</h1>
+        <p class="page-hero-subtitle">Browse our collection of high-quality products, each hand-selected to provide you with the best possible typing experience.</p>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-page">
+      <div class="container">
+        <!-- Filter Bar -->
+        <div class="filter-section">
+          <div class="filter-controls">
+            <div class="product-filters">
+              <button class="filter-btn active" data-filter="all">All Products</button>
+              <button class="filter-btn" data-filter="keyboards">Keyboards</button>
+              <button class="filter-btn" data-filter="keycaps">Keycaps</button>
+              <button class="filter-btn" data-filter="switches">Switches</button>
+              <button class="filter-btn" data-filter="stabilizers">Stabilizers</button>
+            </div>
+
+            <div class="sort-controls">
+              <label for="sort-select">Sort by:</label>
+              <select id="sort-select" class="sort-select">
+                <option value="newest">Newest First</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="name">Name: A to Z</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="product-count">
+            <span id="product-count-text">Loading products...</span>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div id="products-grid" class="products-grid">
+          <div class="loading">Loading products...</div>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- promo section -->
+    <section class="promo-section">
+      <div class="container">
+        <div class="promo-banner">
+          <h3>✨ Special Promo This Month!</h3>
+          <p>Get up to 20% discount on all keyboard purchases in October 2025.</p>
+          <a href="#" class="btn btn-secondary">View Promo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Real feedback from our valued enthusiasts</p>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <img src="./public/review/orang-1.jpg" alt="Reviewer Aryo Wibowo" class="review-avatar">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-quote">"The quality is top-notch! My custom build feels and sounds amazing. The team was super helpful throughout the process. Highly recommended!"</p>
+            <span class="review-author">Aryo Wibowo</span>
+            <span class="review-location">Jakarta</span>
+          </div>
+          <div class="review-card">
+            <img src="./public/review/orang-2.jpg" alt="Reviewer Irvan Jaka" class="review-avatar">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-quote">"I'm so happy with my new keycaps. They look even better in person. Shipping was fast and the packaging was very secure. Will order again!"</p>
+            <span class="review-author">Irvan Jaka</span>
+            <span class="review-location">Bandung</span>
+          </div>
+          <div class="review-card">
+            <img src="./public/review/orang-3.jpg" alt="Reviewer Steven Lee" class="review-avatar">
+            <div class="review-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-quote">"As a beginner in the mechanical keyboard hobby, Ether Craft provided the best guidance. They helped me choose the right switches for my needs."</p>
+            <span class="review-author">Steven Lee</span>
+            <span class="review-location">Surabaya</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Can't Find What You're Looking For?</h2>
+        <p>Our custom build service can create the perfect keyboard for your needs.</p>
+        <div class="cta-buttons">
+          <a href="/#custom" class="btn btn-primary btn-lg">Custom Build Service</a>
+          <a href="/#contact" class="btn btn-secondary btn-lg">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="logo-text-footer">ETHER CRAFT</span>
+            <p class="footer-description">
+              A platform to find the best quality mechanical keyboards that can be customized according to your wishes.
+            </p>
+          </div>
+
+          <div class="footer-link-groups">
+            <div class="footer-link-column">
+              <h4>List Products</h4>
+              <a href="/products.html#keyboards">Keyboards</a>
+              <a href="/products.html#keycaps">Keycaps</a>
+              <a href="/products.html#switches">Switches</a>
+              <a href="/products.html#stabilizers">Stabilizers</a>
+            </div>
+
+            <div class="footer-link-column">
+              <h4>Bantuan</h4>
+              <a href="/about.html">About Us</a>
+              <a href="/#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Ether Craft. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="order-modal" class="modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2 class="modal-title">Order Product</h2>
+        <div id="modal-product-info" class="modal-product-info"></div>
+        <form id="order-form" class="order-form">
+          <div class="form-group">
+            <label for="customer-name">Full Name *</label>
+            <input type="text" id="customer-name" name="customer-name" required />
+          </div>
+          <div class="form-group">
+            <label for="customer-email">Email *</label>
+            <input type="email" id="customer-email" name="customer-email" required />
+          </div>
+          <div class="form-group">
+            <label for="customer-phone">Phone Number *</label>
+            <input type="tel" id="customer-phone" name="customer-phone" required />
+          </div>
+          <div class="form-group">
+            <label for="customer-address">Delivery Address *</label>
+            <textarea id="customer-address" name="customer-address" rows="3" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity *</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required />
+          </div>
+          <div class="form-group">
+            <label for="order-notes">Additional Notes</label>
+            <textarea id="order-notes" name="order-notes" rows="2"></textarea>
+          </div>
+          <div class="form-total">
+            <span>Total:</span>
+            <span id="order-total" class="order-total-amount">Rp 0</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Place Order</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="/products.js"></script>
+  </body>
+</html>
