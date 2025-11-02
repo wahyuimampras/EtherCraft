@@ -519,6 +519,10 @@ section {
   line-height: 1.8;
 }
 
+.contact-link-wrapper {
+  text-decoration: none;
+}
+
 .footer {
   background: var(--primary-color); /* Warna latar belakang gelap */
   color: white; /* Warna teks putih */
@@ -807,6 +811,101 @@ section {
   transform: none;
   box-shadow: var(--shadow);
   background: white;
+}
+
+/* --- FAQ Section --- */
+.faq {
+  background: white;
+}
+
+.faq-group {
+  margin-bottom: 40px;
+}
+
+.faq-group-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+  transition: var(--transition);
+}
+
+.faq-item:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.faq-item details {
+  padding: 24px;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+  cursor: pointer;
+  list-style: none; /* Sembunyikan panah default */
+  position: relative;
+  padding-right: 32px; /* Ruang untuk ikon + / - */
+}
+
+/* Sembunyikan marker default di Chrome/Safari */
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+/* Ikon kustom + / - */
+.faq-question::after {
+  content: '+';
+  font-family: 'FontAwesome'; /* Pastikan Font Awesome dimuat */
+  font-weight: 900;
+  font-size: 20px;
+  color: var(--accent-color);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+}
+
+details[open] .faq-question::after {
+  content: '−'; /* Karakter minus */
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-answer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid var(--border-color);
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.faq-answer p,
+.faq-answer ul,
+.faq-answer ol {
+  margin-bottom: 16px;
+}
+
+.faq-answer ul,
+.faq-answer ol {
+  padding-left: 24px;
+}
+
+.faq-answer li {
+  margin-bottom: 8px;
+}
+
+.faq-answer strong {
+  color: var(--text-color);
 }
 
 @media (max-width: 768px) {
