@@ -10,13 +10,7 @@
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      preload
     />
     <title>
       Ether Craft - Premium Mechanical Keyboards | Jakarta, Indonesia
@@ -25,18 +19,14 @@
       name="description"
       content="Build your dream mechanical keyboard. Ether Craft in Jakarta offers premium custom builds, artisan keycaps, & top-tier switches. Discover your perfect setup."
     />
+
+    <script type="module" src="main.js" preload></script>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar">
       <div class="container nav-container">
         <div class="logo">
-          <a class="logo-container" href="/" style="text-decoration: none">
-            <img
-              class="img-logo"
-              src="./public/Logo Kotak EC.png"
-              alt="logo-ec"
-            /><span class="logo-text">ETHER CRAFT</span>
           <a class="logo-container" href="/" style="text-decoration: none">
             <img
               class="img-logo"
@@ -215,7 +205,8 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
+    -->
 
     <!-- Features Section (Why Choose Ether Craft) -->
     <section id="about" class="features-section">
@@ -345,22 +336,10 @@
               alt="Reviewer Aryo Wibowo"
               class="review-avatar"
             />
-            <img
-              src="./public/review/orang-1.jpg"
-              alt="Reviewer Aryo Wibowo"
-              class="review-avatar"
-            />
             <div class="review-rating">
               <span>★</span><span>★</span><span>★</span><span>★</span
               ><span>★</span>
-              <span>★</span><span>★</span><span>★</span><span>★</span
-              ><span>★</span>
             </div>
-            <p class="review-quote">
-              "The quality is top-notch! My custom build feels and sounds
-              amazing. The team was super helpful throughout the process. Highly
-              recommended!"
-            </p>
             <p class="review-quote">
               "The quality is top-notch! My custom build feels and sounds
               amazing. The team was super helpful throughout the process. Highly
@@ -375,22 +354,10 @@
               alt="Reviewer Irvan Jaka"
               class="review-avatar"
             />
-            <img
-              src="./public/review/orang-2.jpg"
-              alt="Reviewer Irvan Jaka"
-              class="review-avatar"
-            />
             <div class="review-rating">
               <span>★</span><span>★</span><span>★</span><span>★</span
               ><span>★</span>
-              <span>★</span><span>★</span><span>★</span><span>★</span
-              ><span>★</span>
             </div>
-            <p class="review-quote">
-              "I'm so happy with my new keycaps. They look even better in
-              person. Shipping was fast and the packaging was very secure. Will
-              order again!"
-            </p>
             <p class="review-quote">
               "I'm so happy with my new keycaps. They look even better in
               person. Shipping was fast and the packaging was very secure. Will
@@ -405,22 +372,10 @@
               alt="Reviewer Steven Lee"
               class="review-avatar"
             />
-            <img
-              src="./public/review/orang-3.jpg"
-              alt="Reviewer Steven Lee"
-              class="review-avatar"
-            />
             <div class="review-rating">
               <span>★</span><span>★</span><span>★</span><span>★</span
               ><span>★</span>
-              <span>★</span><span>★</span><span>★</span><span>★</span
-              ><span>★</span>
             </div>
-            <p class="review-quote">
-              "As a beginner in the mechanical keyboard hobby, Ether Craft
-              provided the best guidance. They helped me choose the right
-              switches for my needs."
-            </p>
             <p class="review-quote">
               "As a beginner in the mechanical keyboard hobby, Ether Craft
               provided the best guidance. They helped me choose the right
@@ -635,7 +590,5 @@
         </form>
       </div>
     </div>
-
-    <script type="module" src="main.js"></script>
   </body>
 </html>
