@@ -908,6 +908,21 @@ details[open] .faq-question::after {
   color: var(--text-color);
 }
 
+.about-video-wrapper {
+  max-width: 1000px; /* Samakan dengan max-width .about-content */
+  margin: 0 auto 60px auto; /* Memberi jarak bawah seperti .about-text */
+  border-radius: 12px; /* Menyesuaikan style .feature-card */
+  overflow: hidden; /* Penting agar video mengikuti border-radius */
+  box-shadow: var(--shadow-lg); /* Bayangan yang serasi dengan style website */
+  line-height: 0; /* Menghilangkan spasi ekstra di bawah video */
+}
+
+.about-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 768px) {
   .mobile-menu-toggle {
     display: flex;
