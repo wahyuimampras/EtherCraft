@@ -506,6 +506,7 @@ section {
   border-radius: 12px;
   box-shadow: var(--shadow);
   text-align: center;
+  height: 210px;
 }
 
 .contact-item h3 {
