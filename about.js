@@ -1,5 +1,3 @@
-import './style.css'
-
   function setupNavigation() {
     const mobileToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
