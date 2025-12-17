@@ -7,7 +7,7 @@
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #34495e;
-  --accent-color: #d35400;
+  --accent-color: #e67e22;
   --text-color: #2c3e50;
   --text-light: #7f8c8d;
   --bg-color: #ffffff;
@@ -147,7 +147,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(44, 62, 80, 0.9) 0%, rgba(52, 73, 94, 0.85) 100%);
+  /* background: linear-gradient(135deg, rgba(44, 62, 80, 0.9) 0%, rgba(52, 73, 94, 0.85) 100%); */
 }
 
 .hero-content {
