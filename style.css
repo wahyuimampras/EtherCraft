@@ -198,7 +198,7 @@ html {
 
 .btn-white{
   background: #E3E3E3;
-  color: #34495e;
+  color: #2c3e50;
 }
 
 .btn-primary:hover {
@@ -208,10 +208,9 @@ html {
 }
 
 .btn-white:hover {
-  background: rgb(36, 61, 80);
+  background: #cfcdcd;
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(34, 99, 230, 0.3);
-  color: white;
+  box-shadow: 0 8px 16px rgba(177, 194, 227, 0.3);
 }
 
 .btn-secondary {
@@ -503,7 +502,7 @@ section {
 }
 
 .contact-icon{
-  color: #e67e22;
+  color: #234C6A;
   margin-bottom: 20px;
 }
 
@@ -751,11 +750,11 @@ section {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
-  border: 3px solid  var(--accent-color);
+  /* border: 3px solid  var(--accent-color); */
 }
 
 .review-rating {
-  color: #f39c12;
+  color: #234C6A;
   font-size: 24px;
   margin-bottom: 20px;
 }
