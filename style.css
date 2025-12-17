@@ -193,7 +193,7 @@ html {
 
 .btn-primary {
   background: var(--accent-color);
-  color: white;
+  color: black;
 }
 
 .btn-primary:hover {
