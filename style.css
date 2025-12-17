@@ -7,7 +7,7 @@
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #34495e;
-  --accent-color: #e67e22;
+  --accent-color: #D8731D;
   --text-color: #2c3e50;
   --text-light: #7f8c8d;
   --bg-color: #ffffff;
@@ -132,7 +132,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #353a50 0%, #764ba2 100%);
   background-image: url('https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1920');
   background-size: cover;
   background-position: center;
