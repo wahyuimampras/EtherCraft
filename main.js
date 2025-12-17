@@ -1,4 +1,3 @@
-// import './style.css';
 // 1. Impor Supabase
 import { createClient } from '@supabase/supabase-js';
 

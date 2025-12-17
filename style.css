@@ -1377,7 +1377,7 @@ details[open] .faq-question::after {
 /* new lines from hen */
 
 .features-section {
-  background: white;
+  background: var(--bg-light);
   padding: 100px 0;
 }
 

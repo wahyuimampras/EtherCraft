@@ -1,5 +1,4 @@
-import './style.css';
-// 1. Impor Supabase
+// 1. Impor Supabased
 import { createClient } from '@supabase/supabase-js';
 
 // 2. Koneksi ke Supabase
