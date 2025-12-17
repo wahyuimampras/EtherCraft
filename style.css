@@ -202,9 +202,16 @@ html {
 }
 
 .btn-primary:hover {
-  background: #d35400;
+  background: rgb(36, 61, 80);
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(230, 126, 34, 0.3);
+  box-shadow: 0 8px 16px rgba(34, 99, 230, 0.3);
+}
+
+.btn-white:hover {
+  background: rgb(36, 61, 80);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(34, 99, 230, 0.3);
+  color: white;
 }
 
 .btn-secondary {
